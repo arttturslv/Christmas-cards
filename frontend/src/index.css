@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: christmas;
+  src: url(./assets/fonts/MountainsofChristmas-Bold.ttf);
+}
+
+@font-face {
+  font-family: grind;
+  src: url(./assets/fonts/GrinchedRegular.otf);
+}
+
+* {
+  font-family:christmas;
+  color: white;
+} 
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#PageSuperior {
+  background-image: url("./assets/aa.png");
+  background-blend-mode:multiply;
+  background-repeat:repeat;
+}
+
+#PageInferior, #resultado  {
+  background-image: url("./assets/bb.png");
+  background-blend-mode:multiply;
+  background-repeat:repeat;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(60, 113, 67);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
